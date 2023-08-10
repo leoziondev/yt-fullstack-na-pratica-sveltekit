@@ -1,10 +1,10 @@
 <script>
-    import Button from './Button.svelte'
-  import { fromJSON } from 'postcss';
+  import Test from '$lib/test.svelte';
+  import Button from '$ui/Button.svelte';
+import { fromJSON } from 'postcss';
 </script>
 
 <h1>MyApp</h1>
+<Test />
+
 <Button />
-<Button label="Not Click me" />
-<Button label="Another button" />
-<Button label="Example Button" />

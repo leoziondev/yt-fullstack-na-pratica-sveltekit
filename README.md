@@ -53,6 +53,7 @@ You can preview the production build with `npm run preview`.
 ### Documentations
 - [Sveltekit](https://kit.svelte.dev/docs/introduction)
 - [Svelte Add](https://github.com/svelte-add/svelte-add)
+- [Merakiui](https://merakiui.com/)
 
 ### Reference Playlist Channel
 [Full Stack na Prática](https://www.youtube.com/playlist?list=PLXHB4fvDu4Q7ScCZz0WnF-SsUQGBJ4hC_)

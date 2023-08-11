@@ -39,7 +39,7 @@
         </div>
 
         <section class="mt-8 lg:mt-12 lg:grid lg:grid-cols-2 xl:grid-cols-4 lg:gap-12">
-            {#each portfolioItems as { title, category, image }}
+            {#each portfolioItems as { title, slug, category, image }}
                 <article class="">
                     <div class="">
                         <p class="text-lg tracking-wider text-blue-500 uppercase">{category}</p>
@@ -47,9 +47,11 @@
                     </div>
 
                     <div class="mt-4">
-                        <img class="object-cover w-full h-64 rounded-lg md:h-96"
-                            src={image}
-                            alt={title}>
+                        <a href={`/portfolio/${slug}`}>
+                            <img class="object-cover w-full h-64 rounded-lg md:h-96"
+                                src={image}
+                                alt={title}>
+                        </a>
                     </div>
                 </article>
             {/each}
